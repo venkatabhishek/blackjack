@@ -1,0 +1,20 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "description": "Command line blackjack",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "node ./lib/blackjack"
+  },
+  "author": "Abhishek Venkat",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0"
+  }
+}
