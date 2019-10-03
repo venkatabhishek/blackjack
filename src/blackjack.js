@@ -66,7 +66,7 @@ let start = () => {
         
         game.check();
 
-        input = readlineSync.question('Play next round:([y]/n) ');
+        input = readlineSync.question('Play next round? ([y]/n) ');
 
     }
 

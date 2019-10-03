@@ -80,7 +80,7 @@ class Player extends EventEmitter {
     }
 
     getAction(cb){
-        let inp = readlineSync.question('Next action: (stand or hit) ');
+        let inp = readlineSync.question('Next action: ("stand" or "hit") ');
         if(inp != 'stand' && inp != 'hit'){
             console.log("Invalid Option")
             this.getAction(cb)
