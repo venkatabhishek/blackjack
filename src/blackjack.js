@@ -61,7 +61,7 @@ let start = () => {
 
         game.deal(2);
 
-        console.log("Dealer:", dealer.handString())
+        console.log("Dealer:", dealer.handString(true))
         console.log("Player:", player.handString())
         
         game.check();
